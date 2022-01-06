@@ -295,6 +295,10 @@ height: 40px;
     width:100px;
 }
 
+#bloc-4-portfolio img{
+    width: 340px;
+}
+
 .navbar {
     margin-bottom: 0;
     z-index: 1;

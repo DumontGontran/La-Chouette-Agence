@@ -712,6 +712,10 @@ p {
     margin: 20px auto 20px auto;
 }
 
+.social span{
+    margin-bottom: 20px;
+}
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;

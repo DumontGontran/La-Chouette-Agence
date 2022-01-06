@@ -283,8 +283,16 @@ a:hover {
     padding-left: 0;
 }
 
+#bloc-0 img{
+height: 40px;
+}
+
 #bloc-1-hero h1 {
     font-size: 32px;
+}
+
+#bloc-1-hero img{
+    width:100px;
 }
 
 .navbar {

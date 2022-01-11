@@ -284,7 +284,7 @@ a:hover {
 }
 
 #bloc-0 img{
-height: 40px;
+    height: 40px;
 }
 
 #bloc-1-hero h1 {
@@ -658,12 +658,20 @@ h4,
 h5,
 h6,
 p,
+span,
 label,
 .btn,
 a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+}
+
+:focus-visible{
+    display:block;
+    width:100%;
+    border:5px solid lightskyblue;
+    text-align:center;
 }
 
 .container {
@@ -720,15 +728,32 @@ p {
     margin-bottom: 20px;
 }
 
-h2 {
+#bloc-3-what-i-do h2 {
     font-size: 22px;
     line-height: 1.4em;
+    font-weight:normal;
+    text-transform:none;
 }
 
-h3 {
+span {
+    margin-top:10px;
+    font-size: 22px;
+    line-height: 1.33em;
+}
+
+.citation{
+    font-size:20px;
+}
+
+.citation-origin{
+    font-size:13px;
+}
+
+h2 {
     font-size: 15px;
-    text-transform: uppercase;
+    line-height: 1.4em;
     font-weight: 700;
+    text-transform:uppercase;
     color: #333333!important;
 }
 
@@ -791,11 +816,11 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #1300a0!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #A76906;
     color: #FFFFFF!important;
 }
 
@@ -838,7 +863,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -921,6 +946,7 @@ h4 {
         padding-left: 10px!important;
         padding-right: 10px!important;
     }
+
     .b-parallax {
         background-attachment: scroll;
     }
@@ -1042,17 +1068,14 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .bloc-mob-center-text {
+        text-align: center;
+    }
 }
 
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
-    }
-}
-
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
     }
 }

@@ -68,7 +68,7 @@ strong {
     font-weight: 700
 }
 
-dfn {
+.italic, dfn {
     font-style: italic
 }
 

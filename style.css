@@ -29,7 +29,9 @@ a:hover {
     background-size: cover;
     position: relative;
 }
-
+.italic{
+    font-style: italic;
+}
 .bloc .container {
     padding-left: 0;
     padding-right: 0;

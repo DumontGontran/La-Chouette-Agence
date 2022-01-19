@@ -467,6 +467,13 @@ nav .caret {
     box-shadow: none;
 }
 
+.form-control:focus{
+    border-width: 2px;
+    border-color: black;
+    color: black;
+    background: #F3976C;
+}
+
 .scrollToTop {
     width: 40px;
     height: 40px;
@@ -504,6 +511,7 @@ a[data-lightbox]:hover::before {
     background: rgba(0, 0, 0, .6);
     color: #FFF;
     font-weight: 100;
+    z-index: 1;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -548,7 +556,6 @@ a[data-lightbox]:hover img {
     position: absolute;
     top: 20px;
     right: 20px;
-    visibility:hidden;
     background: rgba(0, 0, 0, .5);
     border: none;
     line-height: 30px;
@@ -608,13 +615,6 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757;
-}
-
-:focus-visible{
-    display:block;
-    width:100%;
-    border:5px solid lightskyblue;
-    text-align:center;
 }
 
 .container {

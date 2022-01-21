@@ -511,7 +511,6 @@ a[data-lightbox]:hover::before {
     background: rgba(0, 0, 0, .6);
     color: #FFF;
     font-weight: 100;
-    z-index: 1;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -561,7 +560,7 @@ a[data-lightbox]:hover img {
     border: none;
     line-height: 30px;
     padding: 0 9px 5px;
-    visibility: hidden;
+    opacity:0.3;
 }
 
 .close-lightbox:hover,
